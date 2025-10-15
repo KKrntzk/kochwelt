@@ -98,3 +98,46 @@ button:hover {
   object-fit: cover;
   border-radius: 10px;
 }
+
+@media (max-width: 1500px) {
+  #section-1 {
+    max-width: 1200px;
+  }
+
+  #section-2 {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-sec-1 {
+    flex-direction: column;
+  }
+
+  .mobile-gap {
+    padding-top: 20px;
+  }
+
+  article {
+    max-width: 500px;
+  }
+
+  .section-2-img-div {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-img {
+    width: 300px;
+  }
+
+  article {
+    width: 300px;
+  }
+
+  .mobile-gap {
+    padding-top: ;
+  }
+}
